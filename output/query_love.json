@@ -1,0 +1,41 @@
+{
+  "keyword": "love",
+  "total_matches": 205,
+  "results": [
+    {
+      "title": "Birth of a Nation",
+      "plot_length": 933,
+      "decade": 1910,
+      "year": 1915,
+      "genre": "epic"
+    },
+    {
+      "title": "Dr. Jekyll and Mr. Hyde",
+      "plot_length": 832,
+      "decade": 1920,
+      "year": 1920,
+      "genre": "horror"
+    },
+    {
+      "title": "Greed",
+      "plot_length": 746,
+      "decade": 1920,
+      "year": 1924,
+      "genre": "drama"
+    },
+    {
+      "title": "The Sheik",
+      "plot_length": 732,
+      "decade": 1920,
+      "year": 1921,
+      "genre": "drama, adventure"
+    },
+    {
+      "title": "Girl Shy",
+      "plot_length": 718,
+      "decade": 1920,
+      "year": 1924,
+      "genre": "romantic comedy"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-12-19T00:55:25.621242",
+  "total_rows": 441,
+  "checks": {
+    "no_null_title": {
+      "passed": true,
+      "description": "All titles are non-null"
+    },
+    "no_null_plot": {
+      "passed": true,
+      "description": "All plots are non-null"
+    },
+    "plot_length_positive": {
+      "passed": true,
+      "description": "All plot lengths are greater than 0"
+    },
+    "unique_titles": {
+      "passed": false,
+      "description": "All titles are unique"
+    },
+    "min_row_threshold": {
+      "passed": true,
+      "description": "At least 150 rows remain after filtering"
+    }
+  },
+  "all_passed": false
+}
