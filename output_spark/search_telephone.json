@@ -1,0 +1,48 @@
+{
+  "keyword": "telephone",
+  "total_matches": 6,
+  "results": [
+    {
+      "title": "The Rough House",
+      "plot_length": 371,
+      "decade": 1910,
+      "year": "1917",
+      "genre": "comedy"
+    },
+    {
+      "title": "The Telephone Girl and the Lady",
+      "plot_length": 230,
+      "decade": 1910,
+      "year": "1913",
+      "genre": "drama"
+    },
+    {
+      "title": "The Garage",
+      "plot_length": 194,
+      "decade": 1920,
+      "year": "1920",
+      "genre": "comedy short"
+    },
+    {
+      "title": "Number, Please?",
+      "plot_length": 171,
+      "decade": 1920,
+      "year": "1920",
+      "genre": "comedy"
+    },
+    {
+      "title": "An Unseen Enemy",
+      "plot_length": 107,
+      "decade": 1910,
+      "year": "1912",
+      "genre": "unknown"
+    },
+    {
+      "title": "Sally",
+      "plot_length": 78,
+      "decade": 1920,
+      "year": "1929",
+      "genre": "musical comedy"
+    }
+  ]
+}

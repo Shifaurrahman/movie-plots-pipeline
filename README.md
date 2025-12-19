@@ -18,6 +18,7 @@ movie-plots-pipeline/
 ├── src/
 │   ├── pipeline.py          # Main ETL pipeline
 │   └── query.py             # Query and search functionality
+│   └── spark_pipeline.py    # Complete PySpark ETL + Search pipeline
 ├── output/
 │   ├── parquet/             # Partitioned data by decade
 │   │   ├── decade=1900/     # 20 movies
@@ -114,6 +115,46 @@ python src/pipeline.py
 # 2. Run queries
 python src/query.py
 ```
+
+### pyspark Execution (All Platforms)
+
+```bash
+# 1. Run the ETL pipeline
+python src/spark_pipeline.py
+
+```
+
+
+## 📊 Pipeline Results (Example Run on Full Dataset)
+
+- **Input**: ~34,883 movies (full deduped dataset)
+- **After cleaning**: ~30,000+ high-quality entries (plots ≥50 words)
+- **Partitions**: By decade (1890–2020)
+- **Search Examples**:
+  - `"space"`: ~87 matches (incl. 2001: A Space Odyssey)
+  - `"love"`: Thousands of matches
+  - `"robot"`: 198 matches
+  - `"magic"`: 412 matches
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.8+
+- Java 8 or 11 (required for Spark)
+- Apache Spark 3.3+ with Hadoop Winutils (for Windows)
+
+> **Windows Users**: Download pre-built Spark from https://spark.apache.org/downloads.html  
+> Extract and add `bin` to PATH. Also download `winutils.exe` for your Hadoop version.
+
+### Installation
+
+```bash
+# Install PySpark
+pip install pyspark
+
+# Or via requirements.txt
+pip install -r requirements.txt
 
 ## 🔍 Query Functionality
 
